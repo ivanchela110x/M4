@@ -5,5 +5,45 @@
 }
 
 body {
-    background: #0084ff;
+    background: #00ffbf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+.btn {
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 25px;
+    color: hsl(241, 58%, 25%);
+    background: hsl(83, 98%, 67%);
+    border: 2px solid #3b8674;
+    transition: all 0.75s;
+}
+.btn:hover {
+    background:hsla(83, 98%, 67%, 0.507);
+    color:hsl(221, 100%, 50%);
+}
+.title{
+    font-size: 40px;
+    color:hsl(0, 0%, 0%);
+}
+#result {
+    color: rgba(8, 8, 8, 0.589)
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+nav {
+    display: flex;
+    gap:20px;
+}
+.close {
+    display: none !important;
 }

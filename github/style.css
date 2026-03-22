@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+body {
+    background-color: rgb(0, 255, 149);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label {
+    width: 450px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+input {
+    padding: 5px;
+    border-radius:20px;
+}
+button,
+ a {
+    color: rgb(0, 0, 0);
+    background-color: rgb(142, 193, 235);
+    padding: 5px 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}

@@ -12,30 +12,33 @@
 </head>
 <body>
     <label>
-        <input placeholder="Введитее логин"/>
-        <button>Найти</button>
+        <input placeholder="Введитее логин" id="searchValue"/>
+        <button id="searchBtn">Найти</button>
     </label>
 
-    <div>
+    <div id="card" class="none">
         <img src="https://avatars.githubusercontent.com/u/63047682?v=4">
         <h1>Логин</h1>
         <p>Описание</p>
         <nav>
             <div>
-                <i class="fas fa-map-marker-alt"></i>
+                <i class="fas fa-map-marker-alt" style="color:yellow"></i>
                 <span>Курган</span>
             </div>
             <div>
-                <i class="fad fa-book"></i>
+                <i class="fad fa-book" style="color: green"></i>
                 <span>12</span>
             </div>
             <div>
-                <i class="fas fa-heart"></i>
+                <i class="fas fa-heart" style="color: red"></i>
                 <span>21</span>
             </div>
         </nav>
         <a href="">Go</a>
     </div>
+
+    <div id="load" class="none"></div>
+    <script src="./main.js"></script>
 </body>
 </html>
 

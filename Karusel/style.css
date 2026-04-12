@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    display: flex;
+    align-items: center;
+    background:rgba(104, 102, 102, 0.5);
+}
+nav {
+    overflow-x:hidden;
+}
+div {
+    display: flex;
+    transition: 0.5s;
+    /* transform: translateX(-0%);  */
+    /*Сдвиг картинки*/ 
+}
+img {
+    /* min-width: 50%; */
+    object-fit: cover;
+    aspect-ratio: 4/3;
+}
+i {
+    font-size: 40px;
+    color:rgb(0, 0, 0);
+    padding: 0 10px;
+    cursor: pointer;
+}

@@ -14,11 +14,11 @@ nav {
 div {
     display: flex;
     transition: 0.5s;
-    /* transform: translateX(-0%);  */
-    /*Сдвиг картинки*/ 
+    /*transform: translateX(-0%);
+    Сдвиг картинки*/ 
 }
 img {
-    /* min-width: 50%; */
+    /*min-width: 50%;*/
     object-fit: cover;
     aspect-ratio: 4/3;
 }

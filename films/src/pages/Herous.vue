@@ -1,5 +1,3 @@
 <template>
-    <section>
-        Герои
-    </section>
+  <section>Герои</section>
 </template>

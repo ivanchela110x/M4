@@ -3,7 +3,7 @@
     <router-link to="/">Главная</router-link>
     <router-link to="/seasons">Сезоны</router-link>
     <router-link to="/herous">Герои</router-link>
-     <router-link to="/forum">Форум</router-link>
+    <router-link to="/forum">Форум</router-link>
   </header>
 </template>
 
@@ -15,7 +15,7 @@ header {
   margin: 40px 0;
   border-radius: 50px;
   font-size: 25px;
-  color:white;
+  color: white;
   background: darkviolet;
 }
 </style>

@@ -1,5 +1,3 @@
 <template>
-    <section>
-        Форум
-    </section>
+  <section>Форум</section>
 </template>
